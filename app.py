@@ -5,8 +5,8 @@ import urllib.parse
 
 app = Flask(__name__)
 
-GOOGLE_API_KEY = "AIzaSyAeRFzdvvuURY6wilBKEKZ22rEtB3HCFKY"
-IPQS_API_KEY = "NuHdk9LE4IuVQhP2uGqXawAbSJJOul9Z"
+GOOGLE_API_KEY = "API KEY"
+IPQS_API_KEY = "API KEY"
 
 # Google Safe Browsing API
 def check_google_safe_browsing(url):
