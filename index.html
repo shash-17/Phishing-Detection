@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>🔍 Phishing URL Detector</h2>
+        <input type="text" id="url" placeholder="Enter URL (e.g., https://example.com)">
+        <button onclick="checkURL()">Check URL</button>
+        <div id="loading" class="hidden">Checking...</div>
+        <div id="result"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
